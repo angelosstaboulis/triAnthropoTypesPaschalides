@@ -1,0 +1,6 @@
+framework module Pods_trianthropotypesPaschalides_trianthropotypesPaschalidesUITests {
+  umbrella header "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_trianthropotypesPaschalides_trianthropotypesPaschalidesUITests : NSObject
+@end
+@implementation PodsDummy_Pods_trianthropotypesPaschalides_trianthropotypesPaschalidesUITests
+@end

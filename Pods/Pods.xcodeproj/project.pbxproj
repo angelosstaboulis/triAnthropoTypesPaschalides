@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041A4684EC6CC441DA9F2B1C594DDFCD /* Pods-trianthropotypesPaschalidesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E80AE289CC239C165F3B4D5566FB80F6 /* Pods-trianthropotypesPaschalidesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5549FC543718FDFAC978F04DA3971C /* Pods-trianthropotypesPaschalidesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1549A7CD9DC8F147D6D9D2C88BAA26CB /* Pods-trianthropotypesPaschalidesTests-dummy.m */; };
+		71FCD0313B5A167BC4890B6D4516B6C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		732EDE0723CE0A7436959733263AD4F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9843817A27BA2336059ECC1BFDB6EE87 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F8DD1BD79B1D76ECF275389D80647F /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-dummy.m */; };
+		BDE9E044BF1633359FE8DE75D3C8850E /* Pods-trianthropotypesPaschalides-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4198C47B0869547F6F9EE40A32CE7767 /* Pods-trianthropotypesPaschalides-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4E65732F3F57FB3D716930665F63596 /* Pods-trianthropotypesPaschalides-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BACA9F58AB3E8EEF467F41A16AE608 /* Pods-trianthropotypesPaschalides-dummy.m */; };
+		E9A123376868E0F2F0A21A58C8F96810 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B07CB812A1EDECBCA4D551A32E9065F /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9DF0566B334498E77DBE8CD72D3D81D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		220896B3F4BE9E4F708A5F27E9D9D7A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96536BF770F676B50B2C113EA1057A39;
+			remoteInfo = "Pods-trianthropotypesPaschalides";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A30C47E7EF93FCAD52DEA3E73E39744 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests"; path = Pods_trianthropotypesPaschalides_trianthropotypesPaschalidesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D35E8E0E03DD52345A9F2FBA40D35F2 /* Pods-trianthropotypesPaschalides-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-trianthropotypesPaschalides-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1549A7CD9DC8F147D6D9D2C88BAA26CB /* Pods-trianthropotypesPaschalidesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-trianthropotypesPaschalidesTests-dummy.m"; sourceTree = "<group>"; };
+		18BACA9F58AB3E8EEF467F41A16AE608 /* Pods-trianthropotypesPaschalides-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-trianthropotypesPaschalides-dummy.m"; sourceTree = "<group>"; };
+		226D0F25ED0D7B665D33FC6DE7179070 /* Pods-trianthropotypesPaschalidesTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-trianthropotypesPaschalidesTests-Info.plist"; sourceTree = "<group>"; };
+		404CF11210BC562021ECBE002DD7123A /* Pods-trianthropotypesPaschalidesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-trianthropotypesPaschalidesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4198C47B0869547F6F9EE40A32CE7767 /* Pods-trianthropotypesPaschalides-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-trianthropotypesPaschalides-umbrella.h"; sourceTree = "<group>"; };
+		47BB9BDC047CD17A2AEDBDF821EC6B02 /* Pods-trianthropotypesPaschalidesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-trianthropotypesPaschalidesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4868B9D88F25103F1DA8BC2CF66CF2CA /* Pods-trianthropotypesPaschalidesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trianthropotypesPaschalidesTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CB636B7E46111574DAB9971B22E8797 /* Pods-trianthropotypesPaschalides.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trianthropotypesPaschalides.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		759C209373A6FE734EA76CF34098D436 /* Pods-trianthropotypesPaschalides.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trianthropotypesPaschalides.release.xcconfig"; sourceTree = "<group>"; };
+		86EC9DCB7BA357DDB15FEB851624D0BC /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		97B1B1329B0BEA5C83B7F119A8BA1EF3 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.modulemap"; sourceTree = "<group>"; };
+		9B07CB812A1EDECBCA4D551A32E9065F /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-umbrella.h"; sourceTree = "<group>"; };
+		9BEBD4A86590AB9A4ACA7748BAE478AB /* Pods-trianthropotypesPaschalides */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-trianthropotypesPaschalides"; path = Pods_trianthropotypesPaschalides.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3E28F90E0259530D48E282FC14EA065 /* Pods-trianthropotypesPaschalidesTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-trianthropotypesPaschalidesTests"; path = Pods_trianthropotypesPaschalidesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5D21ED28A3D03307860F0F5C3F9D2C /* Pods-trianthropotypesPaschalidesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-trianthropotypesPaschalidesTests.modulemap"; sourceTree = "<group>"; };
+		AD70CEBEF4242256FDC6D5E35921E567 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AFD66C74270E4B0787A5D4AC8D196B8F /* Pods-trianthropotypesPaschalides.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-trianthropotypesPaschalides.modulemap"; sourceTree = "<group>"; };
+		C83BE9243933A507BA7F12AB879DBA1E /* Pods-trianthropotypesPaschalides-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-trianthropotypesPaschalides-Info.plist"; sourceTree = "<group>"; };
+		D0E1E6676CB12C5FC3DC4C4188DC4CE9 /* Pods-trianthropotypesPaschalides-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-trianthropotypesPaschalides-acknowledgements.plist"; sourceTree = "<group>"; };
+		D415524050217128DBCE5ADBBA8706A0 /* Pods-trianthropotypesPaschalidesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trianthropotypesPaschalidesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E80AE289CC239C165F3B4D5566FB80F6 /* Pods-trianthropotypesPaschalidesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-trianthropotypesPaschalidesTests-umbrella.h"; sourceTree = "<group>"; };
+		E927F2D93B5274CC5AE387AE10463787 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE59EC5BDC5CDD9302B9D7C767036DD4 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5F8DD1BD79B1D76ECF275389D80647F /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-dummy.m"; sourceTree = "<group>"; };
+		FA26B27F87B638975B1DDF02385D0520 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF630F58AD1C8D7851166A7FA2D029D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732EDE0723CE0A7436959733263AD4F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DCE7BB9D7C2A069DBF2C650E100856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FCD0313B5A167BC4890B6D4516B6C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DABD31EF2AA4A4A2506976153A10D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DF0566B334498E77DBE8CD72D3D81D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53BA0F94FDCE55D66B283F068F9CEB2A /* Pods-trianthropotypesPaschalidesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5D21ED28A3D03307860F0F5C3F9D2C /* Pods-trianthropotypesPaschalidesTests.modulemap */,
+				47BB9BDC047CD17A2AEDBDF821EC6B02 /* Pods-trianthropotypesPaschalidesTests-acknowledgements.markdown */,
+				404CF11210BC562021ECBE002DD7123A /* Pods-trianthropotypesPaschalidesTests-acknowledgements.plist */,
+				1549A7CD9DC8F147D6D9D2C88BAA26CB /* Pods-trianthropotypesPaschalidesTests-dummy.m */,
+				226D0F25ED0D7B665D33FC6DE7179070 /* Pods-trianthropotypesPaschalidesTests-Info.plist */,
+				E80AE289CC239C165F3B4D5566FB80F6 /* Pods-trianthropotypesPaschalidesTests-umbrella.h */,
+				D415524050217128DBCE5ADBBA8706A0 /* Pods-trianthropotypesPaschalidesTests.debug.xcconfig */,
+				4868B9D88F25103F1DA8BC2CF66CF2CA /* Pods-trianthropotypesPaschalidesTests.release.xcconfig */,
+			);
+			name = "Pods-trianthropotypesPaschalidesTests";
+			path = "Target Support Files/Pods-trianthropotypesPaschalidesTests";
+			sourceTree = "<group>";
+		};
+		5414E16AEB6D5D4A89F33F460AED8D57 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97B1B1329B0BEA5C83B7F119A8BA1EF3 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.modulemap */,
+				AD70CEBEF4242256FDC6D5E35921E567 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-acknowledgements.markdown */,
+				86EC9DCB7BA357DDB15FEB851624D0BC /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-acknowledgements.plist */,
+				F5F8DD1BD79B1D76ECF275389D80647F /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-dummy.m */,
+				FA26B27F87B638975B1DDF02385D0520 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-Info.plist */,
+				9B07CB812A1EDECBCA4D551A32E9065F /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-umbrella.h */,
+				EE59EC5BDC5CDD9302B9D7C767036DD4 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.debug.xcconfig */,
+				E927F2D93B5274CC5AE387AE10463787 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.release.xcconfig */,
+			);
+			name = "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests";
+			path = "Target Support Files/Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A2DC63F0741F0C8EFF7965B9F4A5143 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9A91AF0E64DB8646585139F2A0C45AB /* Pods-trianthropotypesPaschalides */,
+				5414E16AEB6D5D4A89F33F460AED8D57 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests */,
+				53BA0F94FDCE55D66B283F068F9CEB2A /* Pods-trianthropotypesPaschalidesTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A9A91AF0E64DB8646585139F2A0C45AB /* Pods-trianthropotypesPaschalides */ = {
+			isa = PBXGroup;
+			children = (
+				AFD66C74270E4B0787A5D4AC8D196B8F /* Pods-trianthropotypesPaschalides.modulemap */,
+				0D35E8E0E03DD52345A9F2FBA40D35F2 /* Pods-trianthropotypesPaschalides-acknowledgements.markdown */,
+				D0E1E6676CB12C5FC3DC4C4188DC4CE9 /* Pods-trianthropotypesPaschalides-acknowledgements.plist */,
+				18BACA9F58AB3E8EEF467F41A16AE608 /* Pods-trianthropotypesPaschalides-dummy.m */,
+				C83BE9243933A507BA7F12AB879DBA1E /* Pods-trianthropotypesPaschalides-Info.plist */,
+				4198C47B0869547F6F9EE40A32CE7767 /* Pods-trianthropotypesPaschalides-umbrella.h */,
+				6CB636B7E46111574DAB9971B22E8797 /* Pods-trianthropotypesPaschalides.debug.xcconfig */,
+				759C209373A6FE734EA76CF34098D436 /* Pods-trianthropotypesPaschalides.release.xcconfig */,
+			);
+			name = "Pods-trianthropotypesPaschalides";
+			path = "Target Support Files/Pods-trianthropotypesPaschalides";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E43ADE8067E9B1BDCEF5ACFBB5363508 /* Products */,
+				7A2DC63F0741F0C8EFF7965B9F4A5143 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E43ADE8067E9B1BDCEF5ACFBB5363508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BEBD4A86590AB9A4ACA7748BAE478AB /* Pods-trianthropotypesPaschalides */,
+				0A30C47E7EF93FCAD52DEA3E73E39744 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests */,
+				A3E28F90E0259530D48E282FC14EA065 /* Pods-trianthropotypesPaschalidesTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		157403068C1B1AFF7FE70EEF8F9AC921 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE9E044BF1633359FE8DE75D3C8850E /* Pods-trianthropotypesPaschalides-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BD55A6D56B7B4A93188332BB2A0D46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A4684EC6CC441DA9F2B1C594DDFCD /* Pods-trianthropotypesPaschalidesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD12B2BDFAC02928806937AC241C23B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A123376868E0F2F0A21A58C8F96810 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E4CAA1E99E69A811445EA82A56E2D75 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12828CE9773AA5403BCFDD3D6FB47DA4 /* Build configuration list for PBXNativeTarget "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests" */;
+			buildPhases = (
+				CD12B2BDFAC02928806937AC241C23B7 /* Headers */,
+				E6D1FBF2E307D1CD39641C498BE5B853 /* Sources */,
+				33DCE7BB9D7C2A069DBF2C650E100856 /* Frameworks */,
+				54C1B70B9815CF5A714593183B3884B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests";
+			productName = Pods_trianthropotypesPaschalides_trianthropotypesPaschalidesUITests;
+			productReference = 0A30C47E7EF93FCAD52DEA3E73E39744 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		96536BF770F676B50B2C113EA1057A39 /* Pods-trianthropotypesPaschalides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F474B74F7CDF19B4D3F89A21BCE691FC /* Build configuration list for PBXNativeTarget "Pods-trianthropotypesPaschalides" */;
+			buildPhases = (
+				157403068C1B1AFF7FE70EEF8F9AC921 /* Headers */,
+				836082984557725811ECCCB2987D700A /* Sources */,
+				0AF630F58AD1C8D7851166A7FA2D029D /* Frameworks */,
+				B43D62C066A69D1F5D08D8CD43D78FC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-trianthropotypesPaschalides";
+			productName = Pods_trianthropotypesPaschalides;
+			productReference = 9BEBD4A86590AB9A4ACA7748BAE478AB /* Pods-trianthropotypesPaschalides */;
+			productType = "com.apple.product-type.framework";
+		};
+		F32FFF03699C4ECFF20D75CB98FED012 /* Pods-trianthropotypesPaschalidesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AD40C8DD79080C973146552006F6F6 /* Build configuration list for PBXNativeTarget "Pods-trianthropotypesPaschalidesTests" */;
+			buildPhases = (
+				47BD55A6D56B7B4A93188332BB2A0D46 /* Headers */,
+				5B28C83FCFF1F6AD5DF1C4E047104A6B /* Sources */,
+				95DABD31EF2AA4A4A2506976153A10D6 /* Frameworks */,
+				FFF67F13AA821C1EAD802A9DAF020A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7FBF7951690D9FD3C08571FE23F1AF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-trianthropotypesPaschalidesTests";
+			productName = Pods_trianthropotypesPaschalidesTests;
+			productReference = A3E28F90E0259530D48E282FC14EA065 /* Pods-trianthropotypesPaschalidesTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E43ADE8067E9B1BDCEF5ACFBB5363508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96536BF770F676B50B2C113EA1057A39 /* Pods-trianthropotypesPaschalides */,
+				4E4CAA1E99E69A811445EA82A56E2D75 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests */,
+				F32FFF03699C4ECFF20D75CB98FED012 /* Pods-trianthropotypesPaschalidesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C1B70B9815CF5A714593183B3884B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43D62C066A69D1F5D08D8CD43D78FC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF67F13AA821C1EAD802A9DAF020A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B28C83FCFF1F6AD5DF1C4E047104A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5549FC543718FDFAC978F04DA3971C /* Pods-trianthropotypesPaschalidesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836082984557725811ECCCB2987D700A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E65732F3F57FB3D716930665F63596 /* Pods-trianthropotypesPaschalides-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D1FBF2E307D1CD39641C498BE5B853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9843817A27BA2336059ECC1BFDB6EE87 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7FBF7951690D9FD3C08571FE23F1AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-trianthropotypesPaschalides";
+			target = 96536BF770F676B50B2C113EA1057A39 /* Pods-trianthropotypesPaschalides */;
+			targetProxy = 220896B3F4BE9E4F708A5F27E9D9D7A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		76E9580228C19BFC043BA7B800EACE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E927F2D93B5274CC5AE387AE10463787 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests/Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests/Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B58F6493042FB19DDEC338B117ADD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D415524050217128DBCE5ADBBA8706A0 /* Pods-trianthropotypesPaschalidesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-trianthropotypesPaschalidesTests/Pods-trianthropotypesPaschalidesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-trianthropotypesPaschalidesTests/Pods-trianthropotypesPaschalidesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8729B4BB6C09CCA22AFE7E0283A389FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB636B7E46111574DAB9971B22E8797 /* Pods-trianthropotypesPaschalides.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-trianthropotypesPaschalides/Pods-trianthropotypesPaschalides-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-trianthropotypesPaschalides/Pods-trianthropotypesPaschalides.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BF414B22566F59F6B64971FA7F0B7EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 759C209373A6FE734EA76CF34098D436 /* Pods-trianthropotypesPaschalides.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-trianthropotypesPaschalides/Pods-trianthropotypesPaschalides-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-trianthropotypesPaschalides/Pods-trianthropotypesPaschalides.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF99CE0CE48217EBA8F4B9B24EAD5F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4868B9D88F25103F1DA8BC2CF66CF2CA /* Pods-trianthropotypesPaschalidesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-trianthropotypesPaschalidesTests/Pods-trianthropotypesPaschalidesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-trianthropotypesPaschalidesTests/Pods-trianthropotypesPaschalidesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFF55729B1EF4E6B9003E1D7343EBB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE59EC5BDC5CDD9302B9D7C767036DD4 /* Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests/Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests/Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12828CE9773AA5403BCFDD3D6FB47DA4 /* Build configuration list for PBXNativeTarget "Pods-trianthropotypesPaschalides-trianthropotypesPaschalidesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF55729B1EF4E6B9003E1D7343EBB9B /* Debug */,
+				76E9580228C19BFC043BA7B800EACE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AD40C8DD79080C973146552006F6F6 /* Build configuration list for PBXNativeTarget "Pods-trianthropotypesPaschalidesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B58F6493042FB19DDEC338B117ADD15 /* Debug */,
+				CF99CE0CE48217EBA8F4B9B24EAD5F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F474B74F7CDF19B4D3F89A21BCE691FC /* Build configuration list for PBXNativeTarget "Pods-trianthropotypesPaschalides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8729B4BB6C09CCA22AFE7E0283A389FA /* Debug */,
+				9BF414B22566F59F6B64971FA7F0B7EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -8,72 +8,33 @@
 import SwiftUI
 import NavigationStack
 struct ContentView: View {
-    init() {
-        UIToolbar.appearance().backgroundColor = .blue
-    }
     var body: some View {
-        VStack{
-            ZStack{
-                Image("main").resizable()
-            }
-        }.toolbar {
-            ToolbarItem(placement: .bottomBar) {
-                NavigationLink {
+        NavigationView{
+                TabView{
                     HomeView()
-                } label: {
-                    VStack{
-                        Image("init")
-                        Text("Home").foregroundColor(.white)
-                    }
-                }.padding(5.0)
-                
-            }
-            ToolbarItem(placement: .bottomBar) {
-                NavigationLink {
-                    Listen()
-                } label: {
-                    VStack{
+                        .tabItem{
+                            Image("init")
+                            Text("Home").foregroundColor(.white)
+                        }
+                    Listen().tabItem {
                         Image("listen")
                         Text("Listen").foregroundColor(.white)
                     }
-                }.padding(5.0)
-                
-            }
-            ToolbarItem(placement: .bottomBar) {
-                NavigationLink {
                     StartTest(fullname: .constant(""), genre: .constant(""))
-                } label: {
-                    VStack{
-                        Image("test")
-                        Text("Test").foregroundColor(.white)
+                        .tabItem {
+                            Image("test")
+                            Text("Test").foregroundColor(.white)
                     }
-                }.padding(5.0)
-                
-            }
-            ToolbarItem(placement: .bottomBar) {
-                NavigationLink {
-                    InfoView()
-                } label: {
-                    VStack{
+                    InfoView().tabItem {
                         Image("info")
                         Text("Information").foregroundColor(.white)
                     }
-                }.padding(5.0)
-                
-            }
-            ToolbarItem(placement: .bottomBar) {
-                NavigationLink {
-                    SubMenu()
-                } label: {
-                    VStack{
+                    SubMenu().tabItem {
                         Image("more")
                         Text("More").foregroundColor(.white)
-                    }
-                }.padding(5.0)
-                
-            }
-        }.navigationBarTitle("tri-anthropo-types-Paschalides", displayMode: .inline)
-           
+                    }.toolbar(.hidden, for: .tabBar)
+                }
+         }
     }
 }
 

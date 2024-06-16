@@ -9,7 +9,6 @@ import SwiftUI
 
 struct termsofuse: View {
     init() {
-        UITableView.appearance().contentInset.top = -20
         UITableView.appearance().backgroundColor = .clear
         UITableView.appearance().layer.backgroundColor = UIColor.clear.cgColor
     }
@@ -36,12 +35,28 @@ struct termsofuse: View {
     """
     var body: some View {
         VStack{
-            List{
-                Text(terms).font(Font(CTFont(.label, size: 15.5)))
-            }.navigationBarTitle("tri-anthropo-types-Paschalides", displayMode:.inline)
-             
-            
-        }
+            Image(.bg).resizable().overlay {
+                VStack{
+                    Text("Terms of Use")
+                        .frame(width: 350, height: 50, alignment: .center)
+                        .foregroundColor(.blue)
+                        .padding(-40.0)
+                        .font(Font(CTFont(.label, size: 20)))
+                    ScrollView(.vertical){
+                        Text(terms)
+                            .frame(width: 350, height: 290, alignment: .center)
+                            .foregroundColor(.blue)
+                            .padding(50.0)
+                            .font(Font(CTFont(.label, size: 12.0)))
+                    }
+                    Spacer()
+                    
+                }.frame(height:670,alignment:.top)
+               
+            }
+            Spacer()
+        }.frame(height:990,alignment:.top)
+
     }
 }
 

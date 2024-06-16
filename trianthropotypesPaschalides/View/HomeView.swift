@@ -8,12 +8,12 @@
 import SwiftUI
 import NavigationStack
 struct HomeView: View {
-   
     var body: some View {
         VStack{
             Image("main").resizable()
-        }.edgesIgnoringSafeArea(.all)
-           
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height-80, alignment: .top)
+        }.ignoresSafeArea()
+
     }
     
 }

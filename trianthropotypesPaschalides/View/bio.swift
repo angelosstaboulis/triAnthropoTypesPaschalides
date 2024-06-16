@@ -22,11 +22,27 @@ struct bio: View {
     """
     var body: some View {
         VStack{
-            List{
-                Text(bio).font(Font(CTFont(.label, size: 16.0)))
-            }.navigationBarTitle("tri-anthropo-types-Paschalides", displayMode:.inline)
-            
-        }
+            Image(.bg).resizable().overlay {
+                VStack{
+                    Text("Biography")
+                        .frame(width: 350, height: 50, alignment: .center)
+                        .foregroundColor(.blue)
+                        .padding(-40.0)
+                        .font(Font(CTFont(.label, size: 20)))
+                    ScrollView(.vertical){
+                        Text(bio)
+                            .frame(width: 350, height: 290, alignment: .center)
+                            .foregroundColor(.blue)
+                            .padding(50.0)
+                            .font(Font(CTFont(.label, size: 12.0)))
+                    }
+                    Spacer()
+                    
+                }.frame(height:670,alignment:.top)
+               
+            }
+            Spacer()
+        }.frame(height:990,alignment:.top)
     }
 }
 

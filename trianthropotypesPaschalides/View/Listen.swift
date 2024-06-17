@@ -6,22 +6,42 @@
 //
 
 import SwiftUI
+import AVFAudio
+import AVKit
+
 
 struct Listen: View {
-    @State private var player:String!=""
-    @State var list = ["tournas1.mp3","tournas2.mp3","GiaToParon1.mp3"]
+    @State var list = [ListenRecord(item:"tournas1.mp3",play:"Start",stop:"Stop",selected:false),ListenRecord(item:"tournas2.mp3",play:"Start",stop:"Stop",selected:false),ListenRecord(item:"GiaToParon1.mp3",play:"Start",stop:"Stop",selected:false)]
     @State var clicked:Bool!=false
+    @State var player:AVAudioPlayer!
+    @State var counter:Int
     var body: some View {
         VStack{
             GeometryReader { geometry in
                 VStack {
                     Image(.bg).resizable().overlay {
-                        List(list,id:\.self){item in
-                            NavigationLink {
-                                AudioPlayer(playerFileName: item)
-                            } label: {
-                                Text(item)
-                            }
+                        List(list.indices){item in
+                                HStack{
+                                    Button {
+                                        list[item].selected.toggle()
+                                        do{
+                                            if list[item].selected {
+                                                let urlAudio = Bundle.main.bundlePath + "/" + list[item].item
+                                                player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath:urlAudio))
+                                                player.play()
+                                            }else{
+                                                player.stop()
+                                            }
+                                        }catch{
+                                            debugPrint("something went wrong!!")
+                                        }
+                                        
+                                    } label: {
+                                        Text(list[item].selected ? "Stop" : "Start")
+                                    }
+                                    Text(list[item].item)
+                            }.listStyle(.plain)
+                                
 
                         }.frame(width:300,height:300,alignment: .center)
                         .listStyle(.plain)
@@ -38,6 +58,6 @@ struct Listen: View {
 }
 struct Listen_Previews: PreviewProvider {
     static var previews: some View {
-        Listen()
+        Listen(counter: 0)
     }
 }

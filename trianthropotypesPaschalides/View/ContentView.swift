@@ -16,7 +16,7 @@ struct ContentView: View {
                             Image("init")
                             Text("Home").foregroundColor(.white)
                         }
-                    Listen().tabItem {
+                    Listen(counter:0).tabItem {
                         Image("listen")
                         Text("Listen").foregroundColor(.white)
                     }

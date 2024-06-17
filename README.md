@@ -1,3 +1,4 @@
 # triAnthropoTypesPaschalides
 This is a small iOS app that i made in SwiftUI
-![Simulator Screen Shot - iPhone 11 Pro Max - 2023-06-09 at 13 19 14](https://github.com/angelosstaboulis/triAnthropoTypesPaschalides/assets/79055304/7568f48f-74d7-4b5c-923f-3ce3f7fc4f6c)
+
+![Simulator Screenshot - iPhone 15 Pro - 2024-06-17 at 13 52 22](https://github.com/angelosstaboulis/triAnthropoTypesPaschalides/assets/79055304/2c00f3a6-30db-47e4-9d91-1a4608e55dfd)

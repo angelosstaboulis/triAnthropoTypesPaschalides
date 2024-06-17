@@ -28,6 +28,10 @@ struct SubMenu: View {
                         Image("terms")
                         Text("Terms of Use").foregroundColor(.white)
                     }
+                    ContentView().tabItem {
+                        Image("more")
+                        Text("Back").foregroundColor(.white)
+                    }.toolbar(.hidden, for: .tabBar)
                 }
             }
         }

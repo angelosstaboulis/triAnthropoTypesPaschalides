@@ -23,14 +23,14 @@ struct Results: View {
                             .font(Font(CTFont(.label, size: 14.5)))
                     }.frame(width: 300, height: 200, alignment: .center)
                         .padding(30.0)
-                        .position(x: 160, y: 200)
+                        .position(x: 160, y: 190)
                     if type == "A"{
                         ScrollView{
                             VStack{
                                 Text(characteristicsA).foregroundColor(.blue)
                             }
-                        }.frame(width: 300, height: 320, alignment: .top)
-                            .position(x: 200, y: 395)
+                        }.frame(width: 300, height: 400, alignment: .top)
+                            .position(x: 200, y: 420)
                         
                     }
                     if type == "B"{
@@ -38,16 +38,16 @@ struct Results: View {
                             VStack{
                                 Text(characteristicsB).foregroundColor(.blue)
                             }
-                        }.frame(width: 300, height: 320, alignment: .top)
-                            .position(x: 200, y: 395)
+                        }.frame(width: 300, height: 400, alignment: .top)
+                            .position(x: 200, y: 420)
                     }
                     if type == "C"{
                         ScrollView{
                             VStack{
                                 Text(characteristicsC).foregroundColor(.blue)
                             }
-                        }.frame(width: 300, height: 320, alignment: .top)
-                            .position(x: 200, y: 395)
+                        }.frame(width: 300, height: 400, alignment: .top)
+                            .position(x: 200, y: 420)
                     }
                
             }.onAppear {

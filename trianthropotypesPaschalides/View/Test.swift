@@ -74,7 +74,7 @@ struct Test: View {
                 }.frame(width: 400, height: UIScreen.main.bounds.height-320, alignment: .top)
                 
             }.edgesIgnoringSafeArea(.all)
-                .navigationBarTitle("tri-anthropo-types-Paschalides", displayMode: .inline)
+               
             
         }
     }

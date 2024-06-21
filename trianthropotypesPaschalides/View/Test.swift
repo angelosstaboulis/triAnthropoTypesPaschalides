@@ -23,7 +23,7 @@ struct Test: View {
                             Text(viewModel.fillQuestions()[counterQuestions]).foregroundColor(.blue)
                                 .fixedSize(horizontal: false, vertical: true)
                         }.frame(width: 450, height: 90, alignment: .leading)
-                            .position(x: 190, y: -40)
+                            .position(x: 215, y: -40)
                             .padding(60.0)
                         VStack{
                             RadioButtonGroup(items: [viewModel.fillAnswers1()[counterQuestions],viewModel.fillAnswers2()[counterQuestions], viewModel.fillAnswers3()[counterQuestions] ], selectedId: viewModel.fillAnswers1()[counterQuestions]) { selected in
@@ -40,7 +40,7 @@ struct Test: View {
                             }.foregroundColor(.white)
                         }.frame(width: 320, height: 50, alignment: .center)
                             .padding(30.0)
-                            .position(x: 210, y: -80)
+                            .position(x: 220, y: -80)
                         VStack{
                             Button {
                                 counterQuestions = counterQuestions + 1
@@ -68,10 +68,10 @@ struct Test: View {
 
                             
                         }.frame(width: 400, height: 50, alignment: .center)
-                            .position(x: 150, y: -90)
+                            .position(x: 170, y: -90)
                             .padding(60.0)
                     }
-                }.frame(width: 400, height: UIScreen.main.bounds.height-320, alignment: .top)
+                }.frame(width: 450, height: UIScreen.main.bounds.height-320, alignment: .top)
                 
             }.edgesIgnoringSafeArea(.all)
             

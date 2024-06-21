@@ -17,12 +17,10 @@
 		D6626F842A2DD7A30052F0BE /* trianthropotypesPaschalidesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6626F832A2DD7A30052F0BE /* trianthropotypesPaschalidesUITests.swift */; };
 		D6626F862A2DD7A30052F0BE /* trianthropotypesPaschalidesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6626F852A2DD7A30052F0BE /* trianthropotypesPaschalidesUITestsLaunchTests.swift */; };
 		D6626F942A2DD8260052F0BE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6626F932A2DD8260052F0BE /* HomeView.swift */; };
-		D668AF0B2A33C16800BFE074 /* ToastUI in Frameworks */ = {isa = PBXBuildFile; productRef = D668AF0A2A33C16800BFE074 /* ToastUI */; };
 		D69295E12A32674500E77EA7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69295E02A32674500E77EA7 /* Model.swift */; };
 		D69295E32A32675100E77EA7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69295E22A32675100E77EA7 /* ViewModel.swift */; };
 		D69511D72C202E040021619F /* ListenRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69511D62C202E040021619F /* ListenRecord.swift */; };
 		D69ECDBF2A2E7E7E005715A6 /* SubMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69ECDBE2A2E7E7E005715A6 /* SubMenu.swift */; };
-		D6A63A9E2A2F1E2C00B5D22A /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = D6A63A9D2A2F1E2C00B5D22A /* NavigationStack */; };
 		D6A6A31E2A305068005CD04A /* bio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6A31D2A305068005CD04A /* bio.swift */; };
 		D6A6A3202A305E91005CD04A /* abouttypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6A31F2A305E91005CD04A /* abouttypes.swift */; };
 		D6A6A3222A305E9D005CD04A /* abouttest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6A3212A305E9D005CD04A /* abouttest.swift */; };
@@ -106,8 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D668AF0B2A33C16800BFE074 /* ToastUI in Frameworks */,
-				D6A63A9E2A2F1E2C00B5D22A /* NavigationStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +270,6 @@
 			);
 			name = trianthropotypesPaschalides;
 			packageProductDependencies = (
-				D6A63A9D2A2F1E2C00B5D22A /* NavigationStack */,
-				D668AF0A2A33C16800BFE074 /* ToastUI */,
 			);
 			productName = trianthropotypesPaschalides;
 			productReference = D6626F652A2DD7A00052F0BE /* trianthropotypesPaschalides.app */;
@@ -844,19 +838,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D668AF0A2A33C16800BFE074 /* ToastUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D668AF092A33C16800BFE074 /* XCRemoteSwiftPackageReference "ToastUI" */;
-			productName = ToastUI;
-		};
-		D6A63A9D2A2F1E2C00B5D22A /* NavigationStack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D6A63A9C2A2F1E2C00B5D22A /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
-			productName = NavigationStack;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D6626F5D2A2DD7A00052F0BE /* Project object */;
 }

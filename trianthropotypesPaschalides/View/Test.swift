@@ -22,7 +22,7 @@ struct Test: View {
                         VStack{
                             Text(viewModel.fillQuestions()[counterQuestions]).foregroundColor(.blue)
                                 .fixedSize(horizontal: false, vertical: true)
-                        }.frame(width: 400, height: 90, alignment: .leading)
+                        }.frame(width: 450, height: 90, alignment: .leading)
                             .position(x: 190, y: -40)
                             .padding(60.0)
                         VStack{
@@ -74,7 +74,6 @@ struct Test: View {
                 }.frame(width: 400, height: UIScreen.main.bounds.height-320, alignment: .top)
                 
             }.edgesIgnoringSafeArea(.all)
-                .navigationBarTitle("tri-anthropo-types-Paschalides", displayMode: .inline)
             
         }
     }
